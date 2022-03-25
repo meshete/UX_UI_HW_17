@@ -1,0 +1,96 @@
+body {
+background-color: rgb(240, 240, 240);
+margin: 0px;
+display: inline-block;
+}
+
+header {
+background-color: rgb(189, 189, 189);
+height: 50px;
+padding: 10px;
+margin: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+  }
+
+.heroImg {
+height: 720px;
+padding: 10px;
+display: flex;
+position: relative;
+}
+
+.titleImg {
+
+display: flex;
+align-items: flex-start;
+justify-content: center;
+}
+
+.mockImg {
+background-color: beige;
+width: 500px;
+height: 500px;
+position: absolute;
+z-index: 1;
+left:400px;
+bottom: 15px;
+}
+
+.inline-block {
+width: 23%;
+padding: 1%;
+font-size: 1.5em;
+
+}
+
+nav {
+padding: 1%;
+}
+
+ul {
+display: flex; 
+text-decoration: none;
+list-style: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+h1 {
+    width: 1000px;
+    height: 200px;
+    font-size: 3em;
+    position: absolute;
+    line-height: 1em;
+    text-align:center;
+}
+
+h2 {
+width: 700px;
+height: 100px;
+font-size: 2em;
+position: absolute;
+padding: 70px;
+text-align:center;
+ }
+
+footer {
+    height: 100px;
+    padding: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+    font-size: 2em;
+}
+
+
+button {
+    height: 30px;
+    padding: 0 10px 0 10px;
+    font-size: .5em;
+    }
